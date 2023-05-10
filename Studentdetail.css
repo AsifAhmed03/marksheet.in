@@ -1,0 +1,58 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.td_marksheet{
+    border: 1px solid black;
+    width: 5vw;
+    margin: 10px auto;
+}
+.marksheet{
+    width: 100vw;
+}
+
+.table2{
+    margin: 0px auto;
+    width: 55vw;
+}
+
+.table2 td{
+    width: 60px;
+    text-align: left;
+}
+
+.table2 #colon_td{
+    width: 10px;
+    text-align: left;
+}
+
+.table2 .ans_td{
+    width: 70px;
+}
+.table3{
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 55vw;
+}
+.table3 td {
+    text-align: left;
+}
+
+.table3 .td_marksheet{
+    text-align: center;
+}
+
+.img1{
+    display: flex;
+    width: 55%;
+    margin: 10px auto;
+}
+.table3 .child {
+    text-align: left;
+}
+.footer2{
+  margin: 1% 23%;
+}
+

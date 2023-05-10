@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Studentdetail.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <h1 style="text-align: center;">Candidate Details</h1>
+    <center>
+<table border="1px">
+    <tr>
+        <td>Candidate Name </td><td> <input type="text" placeholder="Enter Correct Name" id="canName"></td>
+    </tr>
+    <!-- <tr>
+        <td>Roll No.</td>  <td><input type="number" placeholder="Enter Your Roll No." id="rollNo"></td> 
+    </tr> -->
+    <tr>
+        <td>Father's Name </td> <td><input type="text" placeholder="Enter Your Father's Name" id="fatherName"></td> 
+    </tr>
+    <tr>
+        <td>Mother's Name </td> <td><input type="text" placeholder="Enter Your Mother's Name" id="motherName"></td> 
+    </tr>
+    <tr>
+        <td>English</td><td> <input type="number" id="english"></td>
+    </tr>
+    <tr>
+        <td>Hindi</td><td> <input type="number" id="hindi"></td>
+    </tr>
+    <tr>
+        <td>Accountancy</td><td><input type="number" id="account"></td>
+    </tr>
+    <tr>
+        <td>Static</td><td><input type="number" id="static"></td>
+    </tr>
+    <tr>
+        <td>Maths</td><td><input type="number" id="maths"></td>
+    </tr>
+    <tr>
+        <td>Computer</td><td><input type="number" id="computer"></td>
+    </tr>
+   
+</table><br>
+<input type="button" value="Submit" onclick="submit()"> <input type="button" value="Reset" onclick="reset()">
+</center>
+
+<input type="button"  value="Print" onclick="Marksheet()">
+<div class="marksheet" id="marksheet">
+    <div class="inner_marksheet" id="inner_marksheet">
+     <img src="b.jpg" alt="img" class="img1">
+
+     
+     <div class="Main_marks">
+     <table class="table2">
+        <tr>
+            <td>Candidate Name </td><td id="colon_td">:</td><td id="cName" class="ans_td"></td>
+            <td >Roll No. </td><td id="colon_td">:</td><td  id="roll" class="ans_td"></td>
+        </tr>
+        <tr>
+            <td>Father's Name</td><td id="colon_td">:</td><td id="fName" class="ans_td"></td>
+            <td>Enroll No.</td><td id="colon_td">:</td><td class ="ans_td">15R3928</td>
+        </tr>
+        <tr>
+            <td>Mother's Name</td><td id="colon_td">:</td><td id="mName" class="ans_td"></td>
+        </tr>
+    </table>
+    <table class="table3">
+    <tr>
+        <th class="child">Subjet Code</th>
+        <th class="child">Subject</th>
+        <th>Max Marks</th>
+        <th>Min Pass Marks</th>
+        <th>Marks Obtained</th>
+        <th>Practical Marks</th>
+        <th>Subject Total</th>
+    </tr>
+    <tr>
+        <td>SU003495</td>
+        <td>English </td><td class="td_marksheet">100</td><td class="td_marksheet">36</td><td class="td_marksheet" id="english1"> </td><td class="td_marksheet"> </td><td class="td_marksheet"  id="total_eng"> </td>
+    </tr>
+    <tr>
+        <td>SU098348</td>
+        <td>Hindi </td><td class="td_marksheet">100</td><td class="td_marksheet">36</td><td class="td_marksheet" id="hindi1"> </td><td class="td_marksheet"> </td><td class="td_marksheet" id="total_hindi"> </td>
+    </tr>
+        <td>SU458348</td>
+        <td>Accountancy </td><td class="td_marksheet">150</td><td class="td_marksheet">54</td><td class="td_marksheet" id="account1"> </td><td class="td_marksheet">42</td><td class="td_marksheet" id="total_accounts"> </td>
+    </tr>
+    </tr>
+        <td>SU465948</td>
+        <td>Static </td><td class="td_marksheet">150</td><td class="td_marksheet">54</td><td class="td_marksheet" id="static1"> </td><td class="td_marksheet">36</td><td class="td_marksheet" id="total_statics"> </td>
+    </tr>
+    </tr>
+        <td>SU456343</td>
+        <td>Maths </td><td class="td_marksheet">100</td><td class="td_marksheet">36</td><td class="td_marksheet" id="maths1"> </td><td class="td_marksheet"> </td><td class="td_marksheet" id="total_maths"> </td>
+    </tr>
+    <tr>
+        <td>SU568908</td>
+        <td>Computer </td><td class="td_marksheet">150</td><td class="td_marksheet">54</td><td class="td_marksheet" id="computer1"> </td><td class="td_marksheet">42</td><td class="td_marksheet" id="total_computer"> </td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td>Marks Total :</td><td id="total_obtain_marks" class="td_marksheet_total"></td><td>Remarks :</td><td id="remarks" colspan="3"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Total Marks</td><td id="total_aggriget_marks"></td><td>Result :</td><td id="result"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Percenatge</td><td id="percentage"></td><td>Division :</td><td id="division" colspan="2"></td>
+    </tr>
+</table>
+</div>
+<div class="footer2">
+    Jodhpur <br>
+    Date : 24/05/2019 <br>
+    Collection Center - (002) FACULTY OF COMMERCE & MANAGEMENT STUDIES <br><br><br>
+    This is Computer generated marksheet, doesn't required signature.
+</div>
+</div>
+<p></p>
+</div>
+
+
+
+<script src="Studentdetail.js"></script>
+</body>
+</html>
